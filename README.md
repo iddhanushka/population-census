@@ -7,6 +7,9 @@ npm run dev </br>
 
 visit - localhost:3000
 
+<h5>production</h5>
+npm run build </br> </br> </br>
+
 
 
 <img src="https://user-images.githubusercontent.com/61249361/193463662-f1cc1c9c-2ff4-4ed3-b8a3-586bc77e07e2.png">
