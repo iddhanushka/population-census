@@ -19,7 +19,7 @@ function Member() {
           <form className="row g-3 gx-5">
             <div className="col-md-6">
               <label htmlFor="inputFName" className="form-label">
-                First Name{" "}
+                First Name
               </label>
               <input type="text" className="form-control general-form__input-field" id="inputFName" placeholder="John" />
             </div>
