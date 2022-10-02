@@ -1,11 +1,11 @@
-# population-census
+# population-census (basic React app)
 
 <h3>running the script</h3><hr>
 <h5>development</h5>
 npm install </br>
 npm run dev </br>
 
-visit- localhost:3000.
+visit - localhost:3000
 
 
 
