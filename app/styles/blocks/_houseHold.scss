@@ -1,0 +1,33 @@
+.house-hold {
+  padding: 40px 0;
+
+  &__head {
+    margin-top: 50px;
+  }
+
+  &__action-list {
+    list-style: none;
+    display: inline-flex;
+    padding-left: 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 70px;
+
+    .button {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  &__action-item {
+    &:not(:last-child) {
+      margin-right: 100px;
+    }
+  }
+
+  &__button-back {
+    margin-bottom: 40px;
+  }
+}

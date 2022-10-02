@@ -1,0 +1,33 @@
+.general-form {
+  &__selector {
+    background-image: url("/app/images/caret-down-square-fill.png");
+    background-size: 23px 22px;
+  }
+
+  &__headline {
+    margin-bottom: 40px;
+  }
+
+  &__input-field {
+    color: $mainColor;
+    border-color: lighten($mainColor, 60%);
+
+    &:focus {
+      box-shadow: unset;
+    }
+
+    &::placeholder {
+      color: lighten($mainColor, 60%);
+    }
+  }
+
+  &__input-radio {
+    &:focus {
+      box-shadow: none;
+    }
+
+    &:checked {
+      background-color: $mainColor;
+    }
+  }
+}

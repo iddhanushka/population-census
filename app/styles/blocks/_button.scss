@@ -1,0 +1,25 @@
+.button {
+  background-color: $mainColor;
+  color: $white;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  display: inline-block;
+  text-decoration: none;
+
+  &--small {
+    padding: 8px 30px;
+    font-size: 18px;
+  }
+
+  &--high-width {
+    width: 230px;
+    text-align: center;
+  }
+
+  &:hover {
+    color: $white;
+  }
+}

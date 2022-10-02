@@ -1,0 +1,18 @@
+.footer {
+  background-color: $footerBgColor;
+  padding: 15px 0;
+  color: $white;
+
+  &__copyright {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 0;
+
+    &__symbol {
+      margin-right: 5px;
+      margin-top: -3px;
+      font-weight: 500;
+    }
+  }
+}

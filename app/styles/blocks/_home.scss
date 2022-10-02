@@ -1,0 +1,49 @@
+.home {
+  padding: 40px 0;
+
+  &__main-img {
+    width: 100%;
+  }
+
+  &__guidlines {
+    margin-top: 100px;
+    padding-left: 70px;
+
+    &__headline {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 40px;
+    }
+
+    &__list {
+      padding-left: 0;
+    }
+
+    &__icon {
+      margin-right: 10px;
+      color: $mainColor;
+    }
+
+    &__term {
+      display: flex;
+      display: -webkit-inline-box;
+      align-items: baseline;
+      margin-bottom: 30px;
+      width: 100%;
+      max-width: 70%;
+    }
+
+    &__phrase {
+      font-size: 22px;
+      margin-bottom: 0px;
+      font-weight: 300;
+    }
+  }
+
+  .button {
+    margin-top: 70px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

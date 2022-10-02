@@ -1,0 +1,27 @@
+.member {
+  padding: 40px 0;
+
+  &__action-btn {
+    margin-top: 70px;
+  }
+
+  &__action-list {
+    display: inline-flex;
+    list-style: none;
+    padding-left: 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: baseline;
+  }
+
+  &__action-item {
+    &:not(:last-child) {
+      margin-right: 100px;
+    }
+  }
+
+  &__button-back {
+    margin-bottom: 40px;
+  }
+}
